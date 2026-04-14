@@ -326,6 +326,19 @@ ul {
   gap: 0.55rem;
 }
 
+.simple-list a {
+  color: #c8d8eb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.simple-list a:hover,
+.simple-list a:focus-visible {
+  color: var(--accent);
+  border-color: rgba(97, 208, 255, 0.45);
+}
+
 .site-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding: 2.2rem 0 2.7rem;
